@@ -10,7 +10,10 @@
     height: fit-content;
     text-align: center;
 }
-
+.ipp{
+    display: flex;
+    justify-content: center;
+}
 h1 {
     font-size: 2rem;
     line-height: 1.5;
@@ -120,6 +123,7 @@ p,h3{
 
     .img {
         padding-top: 2rem;
+        padding-left: 8rem;
     }
 
     .card {
@@ -131,6 +135,10 @@ p,h3{
     h1 {
         font-size: 1rem;
         line-height: 2;
+    }
+    .img {
+        padding-top: 2rem;
+        padding-left: 1rem;
     }
 }
 
