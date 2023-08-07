@@ -1,0 +1,139 @@
+#title,
+.features,
+.test,
+#avail,
+#variants,
+#cta,
+#footdiv {
+    /* background-color: #defffd; */
+    background-color: #B4E4FF;
+    height: fit-content;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding-bottom: 1.5rem;
+    padding-top: 3rem;
+    text-align: left;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-size: large;
+}
+
+.navbar {
+    margin-bottom: 1.5rem;
+    padding: 5px;
+    z-index: 5;
+    height: fit-content;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+}
+
+.fa-lg:hover,
+.f2:hover {
+    color: greenyellow;
+}
+
+.img {
+    width: 29rem;
+    padding-top: 7rem;
+}
+
+.features {
+    padding: 6rem;
+}
+
+hr {
+    height: 1px;
+    padding: 0;
+    margin: 0;
+    color: black;
+    background-color: black;
+}
+
+h3,#apple,h1 {
+    font-family: 'Major Mono Display', monospace;
+}
+
+p,h3{
+    text-align: center;
+}
+
+.f2 {
+    padding: 2rem;
+}
+
+#carimg {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin-bottom: 4rem;
+    border-radius: 10%;
+}
+
+.test {
+    padding-top: 3rem;
+}
+
+.brands {
+    text-align: center;
+}
+
+#avail,
+#variants,
+#cta,
+#footdiv {
+    padding: 5rem;
+
+}
+
+.fa-4x {
+    padding-bottom: 2rem;
+}
+
+.card {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+@media (max-width:992px) {
+    h1 {
+        text-align: center;
+        font-size: 1.7rem;
+        line-height: 2;
+    }
+
+    .container-fluid {
+        text-align: center;
+    }
+
+    .img {
+        padding-top: 2rem;
+    }
+
+    .card {
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width:600px) {
+    h1 {
+        font-size: 1rem;
+        line-height: 2;
+    }
+}
+
+.f3 {
+    margin-top: 2rem;
+}
